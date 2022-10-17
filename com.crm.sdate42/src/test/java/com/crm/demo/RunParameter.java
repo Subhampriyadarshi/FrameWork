@@ -41,6 +41,8 @@ public class RunParameter
 	   String URL =System.getProperty("url");
 	   driver.get(URL);
 	   
+	   System.out.println(URL);
+	   
 	   String USERNAME=System.getProperty("username");
 	   driver.findElement(By.name("user_name")).sendKeys(USERNAME);
 	   
